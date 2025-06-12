@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Chat Interface</title>
+    <link rel="stylesheet" href="style/2style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="sidebar-top">
+            <button class="menu-btn">
+                <span class="hamburger">☰</span>
+            </button>
+            <button class="new-chat">
+                <span class="plus">+</span>
+                New chat
+            </button>
+        </div>
+        <div class="sidebar-chats">
+            <!-- Chat history will go here -->
+        </div>
+        <div class="sidebar-bottom">
+            <button class="profile-btn">
+                <span class="avatar">S</span>
+                sahaka
+            </button>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="plan-banner">
+            <span class="free-plan">Free plan</span>
+            <a href="#" class="upgrade-link">Upgrade</a>
+        </div>
+
+        <main class="chat-container">
+            <div class="greeting">
+                <span class="star-icon">✴</span>
+                <h1>Good evening, sahaka</h1>
+            </div>
+
+            <div class="chat-input-container">
+                <textarea placeholder="How can I help you today?"></textarea>
+                <div class="input-controls">
+                    <div class="left-controls">
+                        <button class="control-btn">+</button>
+                        <button class="control-btn">≈</button>
+                    </div>
+                    <div class="right-controls">
+                        <div class="model-selector">
+                            chatWGG
+                            <span class="dropdown-arrow">▼</span>
+                        </div>
+                        <button class="submit-btn">↑</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button class="action-btn"><span class="icon">⌨</span> Code</button>
+                <button class="action-btn"><span class="icon">📚</span> Learn</button>
+                <button class="action-btn"><span class="icon">✨</span> Create</button>
+                <button class="action-btn"><span class="icon">✏</span> Write</button>
+                <button class="action-btn"><span class="icon">☕</span> Life stuff</button>
+            </div>
+        </main>
+    </div>
+    <script src="java/2main.js"></script>
+</body>
+</html>
